@@ -1,7 +1,7 @@
 <?php
   require_once( 'db-config.php' );
 
-  // Get all breeds
+  // Get all hotels
   $sql = 'SELECT * FROM hotel';
   $query = $pdo->prepare( $sql );
   $query->execute();
